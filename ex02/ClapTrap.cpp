@@ -5,15 +5,15 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/07 00:49:49 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/08 23:59:52 by aaouni           ###   ########.fr       */
+/*   Created: 2023/02/09 00:30:34 by aaouni            #+#    #+#             */
+/*   Updated: 2023/02/09 00:43:19 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
 ClapTrap::ClapTrap(){
-	std::cout << "Default constructor called" << std::endl;
+	std::cout << "ClapTrap default constructor called" << std::endl;
 } 
 
 ClapTrap::ClapTrap(std::string name){

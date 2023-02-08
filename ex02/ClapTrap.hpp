@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/08 23:27:24 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/09 00:05:57 by aaouni           ###   ########.fr       */
+/*   Created: 2023/02/09 00:30:26 by aaouni            #+#    #+#             */
+/*   Updated: 2023/02/09 00:34:25 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,20 +17,20 @@
 #include <limits.h>
 class ClapTrap
 {
-public:
-	ClapTrap();
-	ClapTrap(std::string name);
-	~ClapTrap();
-	ClapTrap(const ClapTrap &c);
-	ClapTrap & operator =(const ClapTrap &c);
-	void attack(const std::string& target);
-	void takeDamage(unsigned int amount);
-	void beRepaired(unsigned int amount);
-protected:
-	std::string		_name;
-	unsigned int	_hitpoints;
-	unsigned int	_energypoints;
-	unsigned int	_attackdamage;
+	public:
+		ClapTrap();
+		ClapTrap(std::string name);
+		~ClapTrap();
+		ClapTrap(const ClapTrap &c);
+		ClapTrap & operator =(const ClapTrap &c);
+		void attack(const std::string& target);
+		void takeDamage(unsigned int amount);
+		void beRepaired(unsigned int amount);
+	protected:
+		std::string		_name;
+		unsigned int	_hitpoints;
+		unsigned int	_energypoints;
+		unsigned int	_attackdamage;
 
 }; 
 

@@ -1,6 +1,6 @@
-NAME= ex01
+NAME= ex02
 
-SRC = ClapTrap.cpp ScavTrap.cpp main.cpp\
+SRC = ClapTrap.cpp FragTrap.cpp main.cpp\
 
 CC = c++
 FLAGS= -Wall -Werror -Wextra -std=c++98

@@ -6,14 +6,14 @@
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/08 23:27:17 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/08 23:27:20 by aaouni           ###   ########.fr       */
+/*   Updated: 2023/02/09 00:21:01 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
 ClapTrap::ClapTrap(){
-	std::cout << "Default constructor called" << std::endl;
+	std::cout << "ClapTrap constructor called" << std::endl;
 } 
 
 ClapTrap::ClapTrap(std::string name){
@@ -35,7 +35,7 @@ ClapTrap::ClapTrap(const ClapTrap &c){
 
 ClapTrap & ClapTrap::operator =(const ClapTrap &c){
 	
-	std::cout << "Copy assignment operator called" << std::endl;
+	// std::cout << "Copy assignment operator called" << std::endl;
 
 	this->_name			= c._name;
 	this->_hitpoints 	= c._hitpoints;

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/02/08 23:27:35 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/09 00:20:31 by aaouni           ###   ########.fr       */
+/*   Created: 2023/02/09 00:29:32 by aaouni            #+#    #+#             */
+/*   Updated: 2023/02/09 00:33:50 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,13 @@
 class ScavTrap : public ClapTrap
 {
 	public:
-	ScavTrap();
-	ScavTrap(std::string name);
-	~ScavTrap();
-	ScavTrap(const ScavTrap &s);
-	ScavTrap & operator =(const ScavTrap &s);
+		ScavTrap();
+		ScavTrap(std::string name);
+		~ScavTrap();
+		ScavTrap(const ScavTrap &s);
+		ScavTrap & operator =(const ScavTrap &s);
 	void	guardGate();
-private: 
+	private: 
 
 }; 
 
