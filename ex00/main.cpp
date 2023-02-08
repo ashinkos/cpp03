@@ -6,7 +6,7 @@
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/07 01:44:38 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/07 01:52:22 by aaouni           ###   ########.fr       */
+/*   Updated: 2023/02/08 23:21:59 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,9 @@ int main (){
     
     ClapTrap A ("alaa");
     ClapTrap B ("aouni");
+    ClapTrap C (A);
+    
+    
     
     A.attack("aouni");
     A.takeDamage(4);
