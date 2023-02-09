@@ -6,7 +6,7 @@
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/09 00:30:06 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/09 00:38:23 by aaouni           ###   ########.fr       */
+/*   Updated: 2023/02/09 03:10:51 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,8 @@ class FragTrap : public ClapTrap
 		FragTrap(const FragTrap &s);
 		FragTrap(std::string name);
 		FragTrap & operator =(const FragTrap &s);
-		void highFivesGuys(void);
+		
+		void 	highFivesGuys(void);
 	private: 
 
 }; 

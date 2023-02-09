@@ -6,14 +6,14 @@
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/09 00:30:34 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/09 01:19:29 by aaouni           ###   ########.fr       */
+/*   Updated: 2023/02/09 03:10:01 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ClapTrap.hpp"
 
 ClapTrap::ClapTrap(){
-	std::cout << "ClapTrap default constructor called" << std::endl;
+	std::cout << "ClapTrap constructor called" << std::endl;
 } 
 
 ClapTrap::ClapTrap(std::string name){
@@ -25,7 +25,7 @@ ClapTrap::ClapTrap(std::string name){
 } 
 
 ClapTrap::~ClapTrap(){
-	std::cout << "Destructor of ClapTrap called" << std::endl;
+	std::cout << "ClapTrap Destructor called" << std::endl;
 } 
 
 ClapTrap::ClapTrap(const ClapTrap &c){

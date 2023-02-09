@@ -6,7 +6,7 @@
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/09 00:30:00 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/09 00:41:17 by aaouni           ###   ########.fr       */
+/*   Updated: 2023/02/09 03:37:18 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,16 +14,14 @@
 #include "FragTrap.hpp"
 int main (){
     
-    // ClapTrap A ("alaa");
-    // ClapTrap B ("aouni");
+    FragTrap B ("aouni");
     FragTrap C ("foo");
     
     
-    
-    // A.attack("aouni");
-    // A.takeDamage(4);
-    // A.beRepaired(4);
-    /*****************/
+    B.attack("aouni");
+    B.takeDamage(7);
+    B.beRepaired(4);
+    std::cout << "/*****************/" << std::endl;
     C.attack("alaa");
     C.takeDamage(20);
     C.beRepaired(20);

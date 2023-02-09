@@ -6,7 +6,7 @@
 /*   By: aaouni <aaouni@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/09 00:29:32 by aaouni            #+#    #+#             */
-/*   Updated: 2023/02/09 00:33:50 by aaouni           ###   ########.fr       */
+/*   Updated: 2023/02/09 03:11:13 by aaouni           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ class ScavTrap : public ClapTrap
 		~ScavTrap();
 		ScavTrap(const ScavTrap &s);
 		ScavTrap & operator =(const ScavTrap &s);
+		
 	void	guardGate();
 	private: 
 
